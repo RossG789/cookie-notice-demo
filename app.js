@@ -1,6 +1,11 @@
 const acceptButton = document.getElementById("accept");
 const declineButton = document.getElementById("decline");
 const cookieNotice = document.getElementById("cookie-notice");
+const toggleThemeButton = document.getElementById("toggle-mode");
+
+toggleThemeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
 acceptButton.addEventListener("click", () => {
   document.cookie = "cookiesAccepted=true";

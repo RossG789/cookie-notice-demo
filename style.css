@@ -6,6 +6,21 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+body.dark {
+  background-color: white;
+}
+
+.light-dark-mode {
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+}
+
 .cookie-notice {
   width: 30vw;
   background-image: url(https://c.files.bbci.co.uk/A4B6/production/_103866124_b8e27d24-1c15-4255-b760-f70e1f6245ed.jpg);
